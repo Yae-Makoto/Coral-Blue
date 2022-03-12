@@ -1,0 +1,39 @@
+.display {
+    z-index: 111;
+    width: 100vw;
+    position: fixed;
+    bottom: 10vh;
+    font-size: 20px;
+}
+
+.display>div:first-child {
+    position: absolute;
+    width: 100vw;
+}
+
+.display>div:nth-child(2) {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 30px;
+}
+
+.display svg {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.display svg:hover {
+    transform: scale(1.2);
+}
+
+.display .svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

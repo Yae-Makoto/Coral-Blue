@@ -1,0 +1,101 @@
+.music {
+    left: 0px;
+}
+
+.setting {
+    right: 0px;
+}
+
+.panel_container {
+    position: fixed;
+    margin: 10px;
+    top: 0px;
+    border: 3px solid;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    fill: white;
+    z-index: 100;
+}
+
+.panel_container:hover,
+.panel_container.ant-popover-open {
+    background-color: 3;
+}
+
+.panel_container svg {
+    opacity: 0;
+    height: 50px;
+    width: 50px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.panel_container svg:hover,
+.ant-popover-open svg {
+    opacity: 1;
+    transform: rotate(90deg);
+}
+
+.ant-radio-group,
+.ant-space,
+.ant-space-item,
+.ant-space-item>* {
+    width: 100%;
+}
+
+.ant-space {
+    display: block !important;
+}
+
+.panel {
+    width: 200px;
+}
+
+.panel h1 {
+    margin: 15px 0;
+    font-weight: 400;
+    font-size: 20px;
+    width: 100%;
+    border-left: 3px solid;
+    padding-left: 10px;
+}
+
+.ant-switch-checked {
+    background-color: none !important;
+}
+
+.ant-radio-button-wrapper {
+    opacity: .3;
+}
+
+.ant-radio-button-wrapper-checked {
+    opacity: 1;
+}
+
+.setting_panel .ant-radio-button-wrapper.ant-radio-button-wrapper-checked {
+    border-color: white !important;
+}
+
+.setting_panel .ant-radio-button-wrapper span {
+    color: rgba(0, 0, 0, 0);
+}
+
+.setting_panel .ant-radio-button-wrapper-checked span {
+    color: white !important;
+}
+
+.music_panel .ant-radio-button-wrapper.ant-radio-button-wrapper-checked {
+    border-color: white !important;
+}
+
+.music_panel .ant-radio-button-wrapper span {
+    color: white;
+}
+
+.music_panel .ant-radio-button-wrapper-checked span {
+    color: white !important;
+}
