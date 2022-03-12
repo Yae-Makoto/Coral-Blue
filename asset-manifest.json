@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ccef6c0b.css",
+    "main.js": "/static/js/main.32e77e27.js",
+    "static/js/787.a21898c0.chunk.js": "/static/js/787.a21898c0.chunk.js",
+    "static/media/LXGW.ttf": "/static/media/LXGW.7bf0f5b5f211341b4d66.ttf",
+    "static/media/bg.jpg": "/static/media/bg.5a15aa9ef13b574ac1e4.jpg",
+    "static/media/snow.svg": "/static/media/snow.e6c038c98b47481c0175bbfe796fabd1.svg",
+    "static/media/tools.svg": "/static/media/tools.33e6d63bc5e955915241fd4ad3a4167b.svg",
+    "static/media/fire.svg": "/static/media/fire.116d6c56c8f2020c6d0055d816675f39.svg",
+    "static/media/pen.svg": "/static/media/pen.09a31989b51d5e9dcf936c16cae0abe5.svg",
+    "static/media/setting.svg": "/static/media/setting.1f7d5201e4226913c2859d1b37d0d154.svg",
+    "static/media/read.svg": "/static/media/read.a81959b8934913ac887dda3bbfa2aff5.svg",
+    "static/media/music_fill.svg": "/static/media/music_fill.3abb8e79ae947075ed7dfcd86cd397b6.svg",
+    "static/media/menu.svg": "/static/media/menu.5e9750f0d8e236479fd33e2c3fbbb463.svg",
+    "static/media/like.svg": "/static/media/like.b89825f62223c6cab6c17e081130349e.svg",
+    "static/media/mp4.svg": "/static/media/mp4.76afe0d0e029b24e656bc2e09e9d5fd2.svg",
+    "static/media/medal.svg": "/static/media/medal.111250e80ab8e30d80c14aad41dbe0c9.svg",
+    "static/media/mp3.svg": "/static/media/mp3.2ed5510bf1118b5e6374345cfef8525d.svg",
+    "static/media/back.svg": "/static/media/back.a953475e35b690b9b92ce087e381925f.svg",
+    "static/media/compass.svg": "/static/media/compass.1001406cda60c72479da2c97d5596fec.svg",
+    "index.html": "/index.html",
+    "static/media/my.svg": "/static/media/my.1f1e5c8fc1a0ec582fa3f23b9fa02c6e.svg",
+    "static/media/pull_down.svg": "/static/media/pull_down.bd41069b8b42faf58f3c370b0dc2a985.svg",
+    "static/media/logo.svg": "/static/media/logo.421716eaf8feaaeefed4398c1163b1d2.svg",
+    "static/media/backward.svg": "/static/media/backward.6c6b537fdf7b910c052b98583c5c3409.svg",
+    "static/media/forward.svg": "/static/media/forward.1202586c3c7031f77e46b17d5574bd4d.svg",
+    "main.ccef6c0b.css.map": "/static/css/main.ccef6c0b.css.map",
+    "main.32e77e27.js.map": "/static/js/main.32e77e27.js.map",
+    "787.a21898c0.chunk.js.map": "/static/js/787.a21898c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccef6c0b.css",
+    "static/js/main.32e77e27.js"
+  ]
+}
