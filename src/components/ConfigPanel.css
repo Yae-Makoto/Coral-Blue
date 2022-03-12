@@ -99,3 +99,9 @@
 .music_panel .ant-radio-button-wrapper-checked span {
     color: white !important;
 }
+
+.ant-slider:hover .ant-slider-handle:not(.ant-tooltip-open),
+.ant-slider-handle:focus,
+.ant-slider-handle {
+    border-color: silver !important;
+}

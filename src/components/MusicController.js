@@ -1,9 +1,9 @@
 import { useContext, useState } from "react";
 import { Context } from "../services/Context/Context";
-import './Controller.css';
-import { ReactComponent as Logo } from "./logo.svg";
+import './MusicController.css';
+import { ReactComponent as Logo } from "./img/logo.svg";
 
-export default function Controller() {
+export default function MusicController() {
     const { player, themeColor } = useContext(Context);
     const [active, setActive] = useState(false);
 

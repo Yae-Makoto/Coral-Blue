@@ -16,10 +16,6 @@
     transition: .3s all ease-in-out;
 }
 
-.Controller.hover svg {
-    /* opacity: 1; */
-}
-
 .Controller-shadow {
     position: absolute;
     top: 0;

@@ -1,20 +1,43 @@
-import { Popover, Radio, Space, Switch } from "antd";
-import { useContext } from "react";
+import { Popover, Radio, Slider, Space, Switch } from "antd";
+import { useContext, useEffect, useState } from "react";
 import playlists from "../config/music.json";
 import theme from "../config/theme.json";
 import { Context } from "../services/Context/Context";
-import './Settings.css';
+import './ConfigPanel.css';
 import { SvgCompass, SvgSetting } from "./SvgIcon/SvgIcon";
 
-export default function Settings() {
+export default function ConfigPanel() {
+
+
     const {
         themeColor,
         setThemeColor,
         playlist,
         changePlaylist,
         backgroundOn,
-        setBackgroundOn
+        setBackgroundOn,
+        backgroundOpacity,
+        setBackgroundOpacity
     } = useContext(Context);
+
+    // if (themeColor) {
+    //     try {
+    //         document.getElementsByClassName("ant-slider-track")[0].style.backgroundColor = themeColor;
+    //     } catch (error) {
+
+    //     }
+
+    // }
+
+    useEffect(() => {
+        try {
+            document.getElementsByClassName("ant-slider-track")[0].style.backgroundColor = themeColor;
+        } catch (error) {
+        }
+
+        // document.querySelector('.ant-slider-track')
+    }, [backgroundOn, themeColor])
+
     return (
         <>
             <Popover placement="bottomRight" content={
@@ -26,6 +49,16 @@ export default function Settings() {
                             checked={backgroundOn}
                             onChange={() => setBackgroundOn(pre => !pre)}
                             style={{ backgroundColor: themeColor }} />
+                    </div>
+                    <div style={{ display: `${backgroundOn ? 'flex' : 'none'}`, flexDirection: 'column' }}>
+                        <div style={{ color: themeColor }}>Opacity</div>
+                        <Slider
+                            value={backgroundOpacity}
+                            min={0}
+                            max={1}
+                            step={0.01}
+                            onChange={(opt) => { setBackgroundOpacity(opt) }}
+                        />
                     </div>
                     <h1 style={{ borderColor: themeColor, color: themeColor }}>THEME</h1>
                     <Radio.Group

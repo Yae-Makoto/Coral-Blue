@@ -1,0 +1,38 @@
+.bg {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    object-fit: contain;
+    z-index: 0;
+}
+
+.bg.on {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg.on.Coral.Blue {
+    background-image: url('./img/Melancholy.jpg');
+}
+
+.bg.on.Melancholy {
+    background-image: url('./img/Kawaii.jpg');
+}
+
+.bg.on.Anger {
+    background-image: url('./img/Anger.jpg');
+}
+
+.bg.on.Princess {
+    background-image: url('./img/Princess.jpg');
+}
+
+.bg.on.Reawaken {
+    background-image: url('./img/Forgive.jpg');
+}
+
+.bg.on.Perseverance {
+    background-image: url('./img/Perseverance.jpg');
+}
